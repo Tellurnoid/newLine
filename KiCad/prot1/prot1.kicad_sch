@@ -657,6 +657,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_Photo_NPN"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Photo_NPN"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN phototransistor, collector/emitter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "phototransistor NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1911,7 +2136,7 @@
 		(uuid "ddcb0174-3b7a-4a34-be21-b53d0e075e92")
 	)
 	(junction
-		(at 127 66.04)
+		(at 168.91 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e46a83b9-cf23-42c0-ba04-4b8dbd7f8244")
@@ -2452,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 54.61) (xy 116.84 50.8)
+			(xy 158.75 41.91) (xy 158.75 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 127 66.04)
+			(xy 158.75 53.34) (xy 168.91 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 50.8) (xy 127 50.8)
+			(xy 158.75 38.1) (xy 168.91 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 62.23) (xy 116.84 66.04)
+			(xy 158.75 49.53) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +3167,7 @@
 	)
 	(global_label "3v3"
 		(shape bidirectional)
-		(at 127 50.8 90)
+		(at 168.91 38.1 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2952,7 +3177,7 @@
 		)
 		(uuid "c20940c0-06eb-458c-a6a3-293667c10a64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 43.3169 90)
+			(at 168.91 30.6169 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2964,7 +3189,7 @@
 			)
 		)
 		(property "3v3" ""
-			(at 130.8418 50.8 90)
+			(at 172.7518 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 66.04 0)
+		(at 168.91 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3582,7 +3807,7 @@
 		(fields_autoplaced yes)
 		(uuid "1196ccb6-630f-45c4-afd3-fc99f8ae7d10")
 		(property "Reference" "#PWR01"
-			(at 127 72.39 0)
+			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,7 +3818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 71.12 0)
+			(at 168.91 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3603,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 66.04 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 66.04 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,7 +3850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 66.04 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4834,6 +5059,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_Photo_NPN")
+		(at 132.08 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f77283-23ef-44ff-b2a3-055c8276ea6b")
+		(property "Reference" "Q1"
+			(at 137.16 66.5606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Photo_NPN"
+			(at 137.16 69.1006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN phototransistor, collector/emitter"
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c84f272a-aa19-4a85-88c1-3e7e2f64bd46")
+		)
+		(pin "2"
+			(uuid "65fa99d9-676a-4b54-976e-0f807e21ca8f")
+		)
+		(instances
+			(project "prot1"
+				(path "/fa6edba8-a662-468c-9fac-cb6e7a59dfa8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 154.94 266.7 180)
 		(unit 1)
@@ -5670,28 +5977,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "e3a2513b-3581-4dc7-887f-2139ca88601c")
+			(uuid "e3a2513b-3581-4dc7-887f-2139ca88601d")
 		)
 		(pin "7"
-			(uuid "ff1f0fe7-a7fc-4eec-a042-f6687cfeb9b4")
+			(uuid "ff1f0fe7-a7fc-4eec-a042-f6687cfeb9b5")
 		)
 		(pin "5"
-			(uuid "dd75cbd2-ca77-43f8-99cf-b26dc2a9a64a")
+			(uuid "dd75cbd2-ca77-43f8-99cf-b26dc2a9a64b")
 		)
 		(pin "4"
-			(uuid "98551264-88f2-4c0e-888d-24ee1d5ed2d7")
+			(uuid "98551264-88f2-4c0e-888d-24ee1d5ed2d8")
 		)
 		(pin "3"
-			(uuid "f14a50b6-d902-4bc0-9ab0-0c43265b7d46")
+			(uuid "f14a50b6-d902-4bc0-9ab0-0c43265b7d47")
 		)
 		(pin "6"
-			(uuid "e923d6ca-1f86-4cde-a721-522f73e7a608")
+			(uuid "e923d6ca-1f86-4cde-a721-522f73e7a609")
 		)
 		(pin "2"
-			(uuid "dfd9dfd4-35bb-4498-a682-7c0d4cf39a89")
+			(uuid "dfd9dfd4-35bb-4498-a682-7c0d4cf39a8a")
 		)
 		(pin "1"
-			(uuid "aed83c96-3424-4f36-9b8c-0a8da2e9ed5f")
+			(uuid "aed83c96-3424-4f36-9b8c-0a8da2e9ed60")
 		)
 		(instances
 			(project "prot1"
@@ -5782,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 58.42 0)
+		(at 158.75 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5793,7 +6100,7 @@
 		(fields_autoplaced yes)
 		(uuid "7924baaa-ad6a-4534-af08-ec6cccb89d73")
 		(property "Reference" "C1"
-			(at 120.65 57.1499 0)
+			(at 162.56 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5804,7 +6111,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 120.65 59.6899 0)
+			(at 162.56 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5815,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.8052 62.23 0)
+			(at 159.7152 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +6133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 58.42 0)
+			(at 158.75 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5837,7 +6144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 116.84 58.42 0)
+			(at 158.75 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6741,7 +7048,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 129.54 58.42 0)
+		(at 171.45 45.72 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6752,7 +7059,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5532030-3386-412e-ad91-51823fe35ca0")
 		(property "Reference" "U1"
-			(at 128.27 57.1499 0)
+			(at 170.18 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6763,7 +7070,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 128.27 59.6899 0)
+			(at 170.18 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 58.42 0)
+			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +7092,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 129.54 58.42 0)
+			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +7103,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 129.54 58.42 0)
+			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,28 +7114,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "e3a2513b-3581-4dc7-887f-2139ca88601c")
+			(uuid "e3a2513b-3581-4dc7-887f-2139ca88601e")
 		)
 		(pin "7"
-			(uuid "ff1f0fe7-a7fc-4eec-a042-f6687cfeb9b4")
+			(uuid "ff1f0fe7-a7fc-4eec-a042-f6687cfeb9b6")
 		)
 		(pin "5"
-			(uuid "dd75cbd2-ca77-43f8-99cf-b26dc2a9a64a")
+			(uuid "dd75cbd2-ca77-43f8-99cf-b26dc2a9a64c")
 		)
 		(pin "4"
-			(uuid "98551264-88f2-4c0e-888d-24ee1d5ed2d7")
+			(uuid "98551264-88f2-4c0e-888d-24ee1d5ed2d9")
 		)
 		(pin "3"
-			(uuid "f14a50b6-d902-4bc0-9ab0-0c43265b7d46")
+			(uuid "f14a50b6-d902-4bc0-9ab0-0c43265b7d48")
 		)
 		(pin "6"
-			(uuid "e923d6ca-1f86-4cde-a721-522f73e7a608")
+			(uuid "e923d6ca-1f86-4cde-a721-522f73e7a60a")
 		)
 		(pin "2"
-			(uuid "dfd9dfd4-35bb-4498-a682-7c0d4cf39a89")
+			(uuid "dfd9dfd4-35bb-4498-a682-7c0d4cf39a8b")
 		)
 		(pin "1"
-			(uuid "aed83c96-3424-4f36-9b8c-0a8da2e9ed5f")
+			(uuid "aed83c96-3424-4f36-9b8c-0a8da2e9ed61")
 		)
 		(instances
 			(project "prot1"

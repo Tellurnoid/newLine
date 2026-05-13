@@ -3,3 +3,25 @@
 ・マイコン：rp2040 zero *2
 ・コンパレーター:LM393 BIDR(マルツ) 
 ・素子:
+①　ALS-PT19-315C/L177/TR8
+https://www.digikey.jp/ja/products/detail/everlight-electronics-co-ltd/ALS-PT19-315C-L177-TR8/2675735
+Digikey
+2-SMD(1608より長辺が0.1mm長い)
+47.4円/個
+PT19-21Bより可視光に近い特性
+底面に半田面があり接触不良リスクあり？(多分NJLほどではない)
+
+② PT19-21B
+https://www.digikey.jp/ja/products/detail/everlight-electronics-co-ltd/PT19-21B-L41-TR8/2675874
+Digikey
+1608
+34.2円/個
+ボール誤反応するかも？
+
+③ TEMT6200FX01
+https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/TEMT6200FX01/1681190
+Digikey
+0805/2012(1608より大きい)
+112/個
+特性はカンペキ
+値段は高すぎる
