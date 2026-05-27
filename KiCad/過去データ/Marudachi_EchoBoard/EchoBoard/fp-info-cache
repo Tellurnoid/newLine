@@ -1,4 +1,11 @@
-27207433822009885
+27297291906048651
+ALS-PT19-315C
+ALS-PT19-315C
+
+
+0
+3
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61781,6 +61788,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32
+ESP32_devModule
+
+
+0
+38
+38
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -62859,6 +62873,13 @@ GDT 3R-6
 0
 3
 3
+FuseFolder
+Fuseholder
+
+
+0
+4
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -69929,6 +69950,20 @@ THT
 0
 4
 2
+JLCPCB
+JCLPCB_30mm
+
+
+0
+0
+0
+JLCPCB
+JLCPCB_2.0x5.9
+
+
+0
+0
+0
 Jumper
 Jumper_Harwin_S1621_P10.9mm
 Harwin SMD jumper link, 12.3x2.3mm, 1.8mm height, 10.9mm pad pitch, https://cdn.harwin.com/pdfs/S1621R.pdf
@@ -71392,6 +71427,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Locker_Switch
+DS-850(LockerSwitch)
+
+
+0
+2
+2
 MPU6050
 MPU6050
 
@@ -71406,6 +71448,13 @@ MPU6050
 0
 4
 4
+MURATA
+MURATA_OKL-KAIZOU
+Non-Isolated PoL Module DC DC Converter 1 Output 0.591 ~ 5.5V - - 6A 4.5V - 14V Input
+
+0
+14
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -95934,8 +95983,22 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RP2040ZERo
+RP2040-Zero-THT
+
+
+0
+23
+23
 RP2040zero
 RP2040_zero
+
+
+0
+23
+23
+RP2040zero
+RP2040zero
 
 
 0
@@ -98272,6 +98335,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+Seeed
+Seeeduino Xiao SAMD
+
+
+0
+14
+14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -106581,6 +106651,13 @@ igbt diode module
 0
 25
 25
+TypeC_forPower
+TypeC_forPower
+
+
+0
+4
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -107365,3 +107442,24 @@ Varistor VF
 0
 2
 2
+a
+Kani
+
+
+0
+0
+0
+a
+Tellurnoid1
+
+
+0
+0
+0
+a
+Theoria2026
+
+
+0
+0
+0
