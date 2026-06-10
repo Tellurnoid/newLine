@@ -14,3 +14,20 @@ Tellurnoid - newLine
 ・Kicad10.0.1のバグがきつく9.0.9に戻す
 
 
+LM339LVQDRQ1 
+無印LM339より性能高い
+マルツ
+https://www.marutsu.co.jp/pc/i/46462494/
+
+
+・マイコン電源コンデンサ
+Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm
+・ショットキー
+Diode_SMD:D_SOD-323_HandSoldering
+・NJL
+njl
+・LM339
+・ノードから、半固定抵抗
+hankotei_node
+・スピーカー
+Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm
