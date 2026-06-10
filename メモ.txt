@@ -31,3 +31,17 @@ njl
 hankotei_node
 ・スピーカー
 Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm
+	
+
+外半径
+70mm
+素子
+68mm
+LED
+65mm
+32個ー11.25度ごとに
+
+ネジ穴
+73mm
+ネジ穴外枠
+5.7mm
