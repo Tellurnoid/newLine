@@ -3161,6 +3161,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "10nF"
+		(exclude_from_sim no)
+		(at 599.694 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a3dc745-8298-4c00-b637-f9900597017f")
+	)
 	(text "LED_POWER\n"
 		(exclude_from_sim no)
 		(at 173.228 167.386 0)
@@ -3181,6 +3191,16 @@
 		)
 		(uuid "4b0df359-d0e9-463e-baaf-637fb2583372")
 	)
+	(text "とりあえず10ｋΩ1608"
+		(exclude_from_sim no)
+		(at 573.786 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9631b686-3ecd-40dd-8caf-9da6b023571a")
+	)
 	(text "UART\n"
 		(exclude_from_sim no)
 		(at 187.96 167.386 0)
@@ -3191,6 +3211,16 @@
 		)
 		(uuid "a989edc5-ed45-4461-a7a7-a420f76b19d1")
 	)
+	(text "Bridge\n"
+		(exclude_from_sim no)
+		(at 676.148 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b26980d8-81ec-4e02-adea-3a0ce0d6e30b")
+	)
 	(text "注意：VCCは3.3V\n"
 		(exclude_from_sim no)
 		(at 65.278 256.54 0)
@@ -3200,6 +3230,16 @@
 			)
 		)
 		(uuid "b7774a06-a036-45b7-bb33-7a9fef8b7355")
+	)
+	(text "Bridge\n"
+		(exclude_from_sim no)
+		(at 604.266 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d92cab6c-4ccf-40cb-89fe-bc8ed29577c4")
 	)
 	(junction
 		(at 889 138.43)
@@ -4528,6 +4568,12 @@
 		(uuid "eeb4987a-9100-4c19-a0be-f348f8d2d0a4")
 	)
 	(junction
+		(at 590.55 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0170234-67b7-4207-b0b1-00245f58019f")
+	)
+	(junction
 		(at 779.78 525.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4807,6 +4853,16 @@
 	)
 	(wire
 		(pts
+			(xy 590.55 46.99) (xy 590.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f01c8d-4902-455b-a5b1-60fdacea2f80")
+	)
+	(wire
+		(pts
 			(xy 934.72 318.77) (xy 934.72 344.17)
 		)
 		(stroke
@@ -4874,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "09d11158-763c-48e4-9bf9-1cdcb8e0dfc3")
+	)
+	(wire
+		(pts
+			(xy 670.56 52.07) (xy 671.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3dc02a-d3a2-4ade-b389-0756201aa492")
 	)
 	(wire
 		(pts
@@ -6207,6 +6273,16 @@
 	)
 	(wire
 		(pts
+			(xy 579.12 50.8) (xy 582.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be51e85-b5cf-4a94-898d-b753de645bed")
+	)
+	(wire
+		(pts
 			(xy 889 316.23) (xy 889 341.63)
 		)
 		(stroke
@@ -6234,6 +6310,16 @@
 			(type default)
 		)
 		(uuid "4cf0a0a2-2ae7-4097-8637-0fbae500a4e8")
+	)
+	(wire
+		(pts
+			(xy 679.45 52.07) (xy 685.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7061c2-5c8e-4803-96a2-c8398ba5a6e0")
 	)
 	(wire
 		(pts
@@ -7667,6 +7753,16 @@
 	)
 	(wire
 		(pts
+			(xy 590.55 50.8) (xy 590.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9603a0d9-3901-4744-8fcb-2f85bde4af06")
+	)
+	(wire
+		(pts
 			(xy 1008.38 398.78) (xy 1033.78 398.78)
 		)
 		(stroke
@@ -8077,6 +8173,16 @@
 	)
 	(wire
 		(pts
+			(xy 608.33 50.8) (xy 612.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfe06ac-d22a-43f9-bb57-459bf489844c")
+	)
+	(wire
+		(pts
 			(xy 906.78 129.54) (xy 906.78 138.43)
 		)
 		(stroke
@@ -8364,6 +8470,16 @@
 			(type default)
 		)
 		(uuid "bc57a5c0-25ae-4f2d-9eb5-2ac870954389")
+	)
+	(wire
+		(pts
+			(xy 590.55 50.8) (xy 600.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc785859-a351-406b-b8eb-779683f5b34b")
 	)
 	(wire
 		(pts
@@ -9575,6 +9691,28 @@
 			)
 		)
 	)
+	(global_label "conp_+"
+		(shape bidirectional)
+		(at 612.14 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c521dfb-2765-4aca-9042-27f9c21cdf9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 623.3121 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "2"
 		(shape input)
 		(at 109.22 165.1 90)
@@ -9599,7 +9737,7 @@
 	)
 	(global_label "conp_+"
 		(shape bidirectional)
-		(at 622.3 85.09 0)
+		(at 685.8 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9609,12 +9747,34 @@
 		)
 		(uuid "2c061353-6ab8-466e-8c93-f8d0ee9d9073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 633.4721 85.09 0)
+			(at 696.9721 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Conp_PWM"
+		(shape bidirectional)
+		(at 579.12 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e095a82-7671-4857-9357-3e4ad52445e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 565.1661 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11459,7 +11619,7 @@
 			(uuid "b965e21a-4099-4cdd-8e84-bfc21b840339")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR053")
 					(unit 1)
@@ -11525,7 +11685,7 @@
 			(uuid "62bb827f-2d32-4863-8bbf-2b2b5af04dc7")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR032")
 					(unit 1)
@@ -11629,7 +11789,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22e9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U1")
 					(unit 4)
@@ -11699,7 +11859,7 @@
 			(uuid "6064e429-6d3d-49cc-8422-ebc03f8f5f43")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q16")
 					(unit 1)
@@ -11769,7 +11929,7 @@
 			(uuid "4e9e02b5-8477-4cff-a9e1-4e0cd3bc212f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl27")
 					(unit 1)
@@ -11839,7 +11999,7 @@
 			(uuid "f8e0d0b9-816e-465d-806b-1134fef00632")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl12")
 					(unit 1)
@@ -11907,7 +12067,7 @@
 			(uuid "53489b5c-e69c-404a-bb7f-a8571811b89a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc15")
 					(unit 1)
@@ -11973,7 +12133,7 @@
 			(uuid "57a5f5ee-0045-4f72-8a4e-cc7ff8812c3f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR039")
 					(unit 1)
@@ -12041,7 +12201,7 @@
 			(uuid "1ce96230-22a2-46c9-afa1-2a861120c660")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc13")
 					(unit 1)
@@ -12107,7 +12267,7 @@
 			(uuid "bb668bbe-7984-4823-b068-30514476e090")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR010")
 					(unit 1)
@@ -12177,7 +12337,7 @@
 			(uuid "9dc5dd4a-027c-45ec-b06c-1ecb71a8542b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl32")
 					(unit 1)
@@ -12247,7 +12407,7 @@
 			(uuid "cd96114c-a45f-4f6b-8849-b748f27124c6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q7")
 					(unit 1)
@@ -12353,7 +12513,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ea")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U4")
 					(unit 5)
@@ -12419,7 +12579,7 @@
 			(uuid "2ba457b1-b7b7-4a2c-9d60-d9d2bb8a451c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR021")
 					(unit 1)
@@ -12489,7 +12649,7 @@
 			(uuid "b2200eb5-e5b4-474b-9a1f-c1262c7211d3")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl24")
 					(unit 1)
@@ -12593,7 +12753,7 @@
 			(uuid "f50f8fe3-55e9-4c9b-8d3e-e22d491a38aa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U8")
 					(unit 4)
@@ -12659,7 +12819,7 @@
 			(uuid "b622cb12-3409-4d41-8726-bc10986eef10")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR022")
 					(unit 1)
@@ -12763,7 +12923,7 @@
 			(uuid "0a7c4b7c-b635-4d0e-b7a7-76e2fc287af4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U7")
 					(unit 4)
@@ -12829,7 +12989,7 @@
 			(uuid "b3c7ddf6-6fe0-49a1-8ba3-02794fda8efd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR026")
 					(unit 1)
@@ -12935,7 +13095,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22eb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U3")
 					(unit 5)
@@ -13001,7 +13161,7 @@
 			(uuid "6e17e849-59c5-450e-96ae-c0b49994aefa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR047")
 					(unit 1)
@@ -13071,7 +13231,7 @@
 			(uuid "dd1fa467-4071-40f8-b9d2-09e007898652")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C2")
 					(unit 1)
@@ -13141,7 +13301,7 @@
 			(uuid "8d3f1ee8-e258-4b34-8be1-ef2e67bcf9ad")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl3")
 					(unit 1)
@@ -13207,7 +13367,7 @@
 			(uuid "3e210408-82f7-4482-9cc1-bf67153d2fad")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR08")
 					(unit 1)
@@ -13311,7 +13471,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ed")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U4")
 					(unit 2)
@@ -13379,7 +13539,7 @@
 			(uuid "8c91a414-9102-4461-bee1-4a0c737efaaf")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc20")
 					(unit 1)
@@ -13458,7 +13618,7 @@
 			(uuid "4080128f-ada3-4f75-896c-ccafc8ffd9f9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D28")
 					(unit 1)
@@ -13528,7 +13688,7 @@
 			(uuid "9f77e544-7217-4510-bf78-4515f08e6712")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl4")
 					(unit 1)
@@ -13598,7 +13758,7 @@
 			(uuid "9d580894-3d9f-4d80-98a1-6a9bf2215ecd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl30")
 					(unit 1)
@@ -13668,7 +13828,7 @@
 			(uuid "66ac01c0-4585-47f3-a713-f17aa2f1e596")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs27")
 					(unit 1)
@@ -13734,7 +13894,7 @@
 			(uuid "61b4aad9-ff2d-4373-95a7-316b8f90ad9c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR019")
 					(unit 1)
@@ -13804,7 +13964,7 @@
 			(uuid "819d8996-fcc0-4df0-bacb-8b3082816a74")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs13")
 					(unit 1)
@@ -13870,7 +14030,7 @@
 			(uuid "64cae6d9-7969-4176-8b40-7ebc88c43258")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR01")
 					(unit 1)
@@ -13940,7 +14100,7 @@
 			(uuid "c1c83a17-30ed-4200-82fb-d4208fa60a12")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs12")
 					(unit 1)
@@ -14010,7 +14170,7 @@
 			(uuid "1c89e616-8521-491b-bb26-f629e163f982")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q32")
 					(unit 1)
@@ -14080,7 +14240,7 @@
 			(uuid "704e7156-86ad-438c-92fd-3688dcefd62d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs29")
 					(unit 1)
@@ -14150,7 +14310,7 @@
 			(uuid "4e3e917f-896e-49dd-9e74-f179e90dd8b5")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl9")
 					(unit 1)
@@ -14229,7 +14389,7 @@
 			(uuid "ad021eab-260f-4b8e-bce3-5ecfc17d3d93")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D4")
 					(unit 1)
@@ -14295,7 +14455,7 @@
 			(uuid "ccaba93b-f1f7-4957-a5b9-619cbb9099d6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR045")
 					(unit 1)
@@ -14374,7 +14534,7 @@
 			(uuid "07381cab-2a0d-4e60-a280-245e99da247d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D14")
 					(unit 1)
@@ -14444,7 +14604,7 @@
 			(uuid "4c4aa18f-f148-40c9-9ee8-18ba6d3cb440")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q8")
 					(unit 1)
@@ -14548,7 +14708,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ee")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U3")
 					(unit 2)
@@ -14622,7 +14782,7 @@
 			(uuid "158a6e68-7b52-4cc1-9141-c1ea268e0a55")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "J3")
 					(unit 1)
@@ -14691,7 +14851,7 @@
 			(uuid "e4d81bd8-3cb7-4339-8471-c1ab3305116c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "J1")
 					(unit 1)
@@ -14761,7 +14921,7 @@
 			(uuid "72459863-caa7-4198-a0c7-0cc426b232b1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl7")
 					(unit 1)
@@ -14831,7 +14991,7 @@
 			(uuid "f67fd3a8-4742-463f-afe5-d61a7c7dd78f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q5")
 					(unit 1)
@@ -14901,7 +15061,7 @@
 			(uuid "62f08335-3184-4db0-8190-cb1e60787477")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C11")
 					(unit 1)
@@ -14971,7 +15131,7 @@
 			(uuid "a7c8d91e-7a31-41bd-b3e3-28b2e759c49b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs9")
 					(unit 1)
@@ -15039,7 +15199,7 @@
 			(uuid "dd7a239d-0fca-49c3-9fbc-177854391f7b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc23")
 					(unit 1)
@@ -15109,9 +15269,77 @@
 			(uuid "ae0b8f7c-a0b3-4dff-bbb0-6118abfc22ed")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 604.52 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "294df734-b318-463e-9a6a-5619ea39c601")
+		(property "Reference" "B1"
+			(at 604.52 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 604.52 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 604.52 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 604.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 604.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63be66b2-4cca-4954-9fd0-01fa30e7b8c9")
+		)
+		(pin "2"
+			(uuid "14865113-b296-4990-8277-7770d405ef44")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -15175,7 +15403,7 @@
 			(uuid "a87e4bf7-629a-4e81-a750-76bedfdb1c42")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR033")
 					(unit 1)
@@ -15243,7 +15471,7 @@
 			(uuid "efde09c4-d05e-4024-b756-b11d7a309027")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc12")
 					(unit 1)
@@ -15349,7 +15577,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ef")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U8")
 					(unit 5)
@@ -15415,7 +15643,7 @@
 			(uuid "b25722cd-772f-4ced-85b9-ecc440e0fcfb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR023")
 					(unit 1)
@@ -15485,7 +15713,7 @@
 			(uuid "617386c3-5b83-4ac6-bb96-98458f2f1a5e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q23")
 					(unit 1)
@@ -15553,7 +15781,7 @@
 			(uuid "1aa357e2-9fcb-4af6-acf1-e35fa1687676")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc27")
 					(unit 1)
@@ -15619,7 +15847,7 @@
 			(uuid "8f5bb477-fe6a-4b03-83a8-92440fc56dbc")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR025")
 					(unit 1)
@@ -15683,7 +15911,7 @@
 			)
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "H4")
 					(unit 1)
@@ -15753,7 +15981,7 @@
 			(uuid "d5481ea6-a89d-40fe-b6f1-acb7192b2136")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl17")
 					(unit 1)
@@ -15819,7 +16047,7 @@
 			(uuid "6575dbf9-689b-4048-9cc3-043a47457b91")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR048")
 					(unit 1)
@@ -15898,7 +16126,7 @@
 			(uuid "05e95344-91f5-42c1-bdfa-bebf3f3c1f96")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D12")
 					(unit 1)
@@ -15977,7 +16205,7 @@
 			(uuid "45454048-922a-4678-8f19-b8e4c648ebd4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D18")
 					(unit 1)
@@ -16047,7 +16275,7 @@
 			(uuid "33f81487-f0cc-49ec-8489-481dedb1172f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs31")
 					(unit 1)
@@ -16113,7 +16341,7 @@
 			(uuid "e3b08777-e4a1-45f2-bdd4-6b20a341a48b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR028")
 					(unit 1)
@@ -16183,7 +16411,7 @@
 			(uuid "ebe24d3e-5a95-4d9c-80c6-5b169a28adab")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q14")
 					(unit 1)
@@ -16253,7 +16481,7 @@
 			(uuid "c73eb9d8-36c2-46fe-8290-cfbf57deef59")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs19")
 					(unit 1)
@@ -16323,7 +16551,7 @@
 			(uuid "715fe1f3-7fea-4512-ba3c-93d89ce9d02d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs7")
 					(unit 1)
@@ -16429,7 +16657,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ec")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U1")
 					(unit 5)
@@ -16499,7 +16727,7 @@
 			(uuid "eef03e1f-480c-4f15-bf85-ed02531ed000")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C7")
 					(unit 1)
@@ -16578,7 +16806,7 @@
 			(uuid "84925eff-9938-47cf-a428-3b17f2fa516b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D11")
 					(unit 1)
@@ -16648,7 +16876,7 @@
 			(uuid "a5d7164f-a24e-4c5f-bfe0-244c93a51d9e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl18")
 					(unit 1)
@@ -16718,7 +16946,7 @@
 			(uuid "7d955cf3-bc4b-44de-a5a4-2ed8a2bc185f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs23")
 					(unit 1)
@@ -16786,7 +17014,7 @@
 			(uuid "df47b6ff-0787-4d65-8c71-cba3f1f393cc")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc19")
 					(unit 1)
@@ -16856,7 +17084,7 @@
 			(uuid "94c8ff5d-3557-44a8-ad56-9a4881ac5679")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs24")
 					(unit 1)
@@ -16960,7 +17188,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f2")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U6")
 					(unit 2)
@@ -17064,7 +17292,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f0")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U1")
 					(unit 1)
@@ -17134,7 +17362,7 @@
 			(uuid "2213e484-b57b-41c6-985e-2100a99d1a10")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs3")
 					(unit 1)
@@ -17202,7 +17430,7 @@
 			(uuid "358fcf30-f106-4160-b11b-282b5a9a11f9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc9")
 					(unit 1)
@@ -17281,7 +17509,7 @@
 			(uuid "df727630-d6d6-4e2f-bdd1-9612f280c87c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D31")
 					(unit 1)
@@ -17351,7 +17579,7 @@
 			(uuid "3f7ca208-f9a6-4eaa-a85b-e2a9b1132b08")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs8")
 					(unit 1)
@@ -17421,7 +17649,7 @@
 			(uuid "bc42d917-5eec-48ec-850a-c2711e5e25b4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl25")
 					(unit 1)
@@ -17487,7 +17715,7 @@
 			(uuid "c481ad85-298d-437a-b35a-5226f92f948c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR041")
 					(unit 1)
@@ -17555,7 +17783,7 @@
 			(uuid "8fc65f45-d61b-4ae7-8eb6-b4af30ae379a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc1")
 					(unit 1)
@@ -17625,7 +17853,7 @@
 			(uuid "bd98791f-927e-43cb-961b-2f4c683ba641")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs2")
 					(unit 1)
@@ -17691,7 +17919,7 @@
 			(uuid "5f61e94b-99a1-4579-a8ee-c6adb2d57ab7")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR030")
 					(unit 1)
@@ -17759,7 +17987,7 @@
 			(uuid "32de078d-daf8-4509-a6c2-eb5ccf7b0467")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc10")
 					(unit 1)
@@ -17838,9 +18066,77 @@
 			(uuid "51daa45a-fc98-4c56-9676-d96a466385aa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 586.74 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a53340-32ee-49bb-84dd-2da0d0625bb7")
+		(property "Reference" "R1"
+			(at 586.74 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 586.74 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 586.74 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 586.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 586.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6466cfe-5e84-407b-9f67-fbe018c27a2b")
+		)
+		(pin "2"
+			(uuid "86503cae-9f38-4908-b7fd-3603ff6d4e28")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -17942,7 +18238,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U7")
 					(unit 1)
@@ -18021,7 +18317,7 @@
 			(uuid "83d8b47f-046d-4621-896f-d05ef3febb06")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D10")
 					(unit 1)
@@ -18100,7 +18396,7 @@
 			(uuid "6755cc7d-baf4-4b12-b3b4-adb77de2189c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D8")
 					(unit 1)
@@ -18170,7 +18466,7 @@
 			(uuid "d6981a12-a688-4696-8c8d-7410e2d388dd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl21")
 					(unit 1)
@@ -18236,7 +18532,7 @@
 			(uuid "81c4a4e5-033d-4169-a9c4-e5ef62750c24")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR031")
 					(unit 1)
@@ -18302,7 +18598,7 @@
 			(uuid "e4e1a181-8487-4e33-90b6-32c7ffeddf2a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR024")
 					(unit 1)
@@ -18381,7 +18677,7 @@
 			(uuid "bcb072cf-7758-451b-af20-164bcb3f3426")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D16")
 					(unit 1)
@@ -18449,7 +18745,7 @@
 			(uuid "01642d77-b541-4023-be70-3935f2f5ad70")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc30")
 					(unit 1)
@@ -18553,7 +18849,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f3")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U7")
 					(unit 2)
@@ -18621,7 +18917,7 @@
 			(uuid "8d776c74-a879-4e2a-a20b-38103fb7434c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc3")
 					(unit 1)
@@ -18691,7 +18987,7 @@
 			(uuid "b9a4e6df-e57c-46f6-ab2b-2b194fb68ac6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl6")
 					(unit 1)
@@ -18761,7 +19057,7 @@
 			(uuid "4e409028-96cb-406d-aff6-c82cde52a0a0")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q9")
 					(unit 1)
@@ -18831,7 +19127,7 @@
 			(uuid "3267ec77-9209-40e4-9200-67534453ef69")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q11")
 					(unit 1)
@@ -18899,7 +19195,7 @@
 			(uuid "c83711f5-34d2-46e3-8348-b5865aed407c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc6")
 					(unit 1)
@@ -18967,9 +19263,75 @@
 			(uuid "4560e599-31bf-4984-8a17-9a2d7c4ad5b2")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 590.55 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67f017fc-0d1e-4373-b610-a684714abb7a")
+		(property "Reference" "#PWR054"
+			(at 590.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 590.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 590.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 590.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95698af0-1595-4670-a12d-7f83a1ba00b8")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -19037,7 +19399,7 @@
 			(uuid "85f258d1-2878-45c6-9178-ca597055d513")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q1")
 					(unit 1)
@@ -19105,7 +19467,7 @@
 			(uuid "5e95b25c-08e9-42a0-922d-f03ac562dcdf")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc31")
 					(unit 1)
@@ -19175,7 +19537,7 @@
 			(uuid "f56cab63-2a00-42c4-8958-160c6f4afcbd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C9")
 					(unit 1)
@@ -19254,7 +19616,7 @@
 			(uuid "104ec4cf-e7da-40b0-9714-1edb1c43dd56")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D21")
 					(unit 1)
@@ -19322,7 +19684,7 @@
 			(uuid "a79d1d73-131c-49f1-98f2-d4a4f56d3664")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc26")
 					(unit 1)
@@ -19390,7 +19752,7 @@
 			(uuid "7e91723a-61f4-4fb9-bebb-11c58864540b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc22")
 					(unit 1)
@@ -19460,7 +19822,7 @@
 			(uuid "ec66d168-8634-4ea9-bd52-d4aced878a4f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs21")
 					(unit 1)
@@ -19526,7 +19888,7 @@
 			(uuid "defc827a-1a74-4288-9815-c17671f484bb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR020")
 					(unit 1)
@@ -19596,7 +19958,7 @@
 			(uuid "83f31046-e1e3-4fd1-ae1e-fe13bb30b30d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q10")
 					(unit 1)
@@ -19700,7 +20062,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f5")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U6")
 					(unit 3)
@@ -19764,7 +20126,7 @@
 			)
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "H2")
 					(unit 1)
@@ -19830,7 +20192,7 @@
 			(uuid "edfd35b5-89a8-4034-a0b1-353ce8a9671e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR038")
 					(unit 1)
@@ -19900,7 +20262,7 @@
 			(uuid "1c1f80dc-606c-4309-8dd1-7714a3cb517b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C5")
 					(unit 1)
@@ -20004,7 +20366,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U8")
 					(unit 1)
@@ -20074,7 +20436,7 @@
 			(uuid "ae2b569e-5908-4046-b12a-201e36015406")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q20")
 					(unit 1)
@@ -20153,7 +20515,7 @@
 			(uuid "6e3198a2-468e-466a-a4fb-edd7722058f5")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D6")
 					(unit 1)
@@ -20163,7 +20525,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 618.49 81.28 0)
+		(at 666.75 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20172,7 +20534,7 @@
 		(fields_autoplaced yes)
 		(uuid "7486c444-0eb2-488b-8b7e-7a69370e0529")
 		(property "Reference" "#PWR03"
-			(at 618.49 85.09 0)
+			(at 666.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20181,7 +20543,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 618.49 76.2 0)
+			(at 666.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20189,7 +20551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 618.49 81.28 0)
+			(at 666.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20198,7 +20560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 618.49 81.28 0)
+			(at 666.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20207,7 +20569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 618.49 81.28 0)
+			(at 666.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20219,7 +20581,7 @@
 			(uuid "36b5e719-1f96-4633-80d0-7ea1a5eb12e1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR03")
 					(unit 1)
@@ -20287,7 +20649,7 @@
 			(uuid "e8ad8b79-49b7-4138-bdbc-09ba0cc041fa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc7")
 					(unit 1)
@@ -20353,7 +20715,7 @@
 			(uuid "a2944e95-8f65-4bf3-8589-2c1ba7fddbd6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR018")
 					(unit 1)
@@ -20487,7 +20849,7 @@
 			(uuid "b8393ce7-42f0-478c-bd29-b13d0135f4ab")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "RP2040_Zero1")
 					(unit 1)
@@ -20553,7 +20915,7 @@
 			(uuid "2833645f-5f8b-4058-9747-22cb00d6a212")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR037")
 					(unit 1)
@@ -20619,7 +20981,7 @@
 			(uuid "d1cf01fd-89aa-4a38-bdde-2d2fb244ba3c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR040")
 					(unit 1)
@@ -20685,7 +21047,7 @@
 			(uuid "4f2d7f4a-dfe2-4f69-bc57-eeaffc076dec")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR042")
 					(unit 1)
@@ -20749,7 +21111,7 @@
 			)
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "H3")
 					(unit 1)
@@ -20819,7 +21181,7 @@
 			(uuid "065a9e46-1476-4cd9-9fda-89f1feccca56")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs15")
 					(unit 1)
@@ -20889,7 +21251,7 @@
 			(uuid "17106b98-e2e8-4c49-b35a-beee209abfe8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q4")
 					(unit 1)
@@ -20968,7 +21330,7 @@
 			(uuid "d567cae5-0869-4ec9-aac9-61e07aec81a9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D13")
 					(unit 1)
@@ -21041,7 +21403,7 @@
 			(uuid "8f823979-2e75-471c-88eb-d745bcfad0a3")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "J2")
 					(unit 1)
@@ -21107,7 +21469,7 @@
 			(uuid "3cb81682-6cd0-4fe7-a3ff-0415a143e308")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR016")
 					(unit 1)
@@ -21177,7 +21539,7 @@
 			(uuid "a3811ebd-19ec-4869-a65d-1e086f1a5514")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q31")
 					(unit 1)
@@ -21247,7 +21609,7 @@
 			(uuid "25837d93-33e3-4800-8614-90c34e8280e9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl19")
 					(unit 1)
@@ -21317,7 +21679,7 @@
 			(uuid "a115850b-d524-43d0-afa9-1934dad7e634")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q24")
 					(unit 1)
@@ -21396,7 +21758,7 @@
 			(uuid "8babe489-c6b8-405c-ad59-9582366f7977")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D24")
 					(unit 1)
@@ -21502,7 +21864,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U2")
 					(unit 5)
@@ -21606,7 +21968,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f7")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U5")
 					(unit 2)
@@ -21672,7 +22034,7 @@
 			(uuid "394e7c80-3d8c-4adc-9a08-1699ea73ca15")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR029")
 					(unit 1)
@@ -21738,7 +22100,7 @@
 			(uuid "22d98290-8974-43e8-9f56-5b2449502de4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR015")
 					(unit 1)
@@ -21842,9 +22204,75 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 590.55 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8711e938-4d5f-41cb-b368-f5fbf0c1556c")
+		(property "Reference" "#PWR055"
+			(at 590.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 590.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 590.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 590.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5967627a-838c-4aeb-9b7d-17d2c40d1b74")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -21910,7 +22338,7 @@
 			(uuid "3f6f7272-dfc5-4dae-9398-128b3bab3706")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc8")
 					(unit 1)
@@ -22014,7 +22442,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22f8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U3")
 					(unit 1)
@@ -22118,7 +22546,7 @@
 			(uuid "bb7777f1-bd7e-434a-b3d3-5205e176f695")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U4")
 					(unit 4)
@@ -22222,7 +22650,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22fa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U2")
 					(unit 3)
@@ -22292,7 +22720,7 @@
 			(uuid "cd17ecb9-ad81-4b6d-9704-1c4549dbb691")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl10")
 					(unit 1)
@@ -22358,9 +22786,77 @@
 			(uuid "e7d353f1-e9e6-4a09-89b3-020ad28cec32")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 675.64 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbaa409-11bc-4980-8489-036beadae3a7")
+		(property "Reference" "B2"
+			(at 675.64 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 675.64 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 675.64 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 675.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 675.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f79ef910-75a7-46ab-8825-cf5d9731d275")
+		)
+		(pin "2"
+			(uuid "77638f2b-05f2-420d-bd79-edb12a089dab")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -22428,7 +22924,7 @@
 			(uuid "fbb77a75-a55f-4c06-9b6b-519e288a36d9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl22")
 					(unit 1)
@@ -22498,7 +22994,7 @@
 			(uuid "91af0fe7-8ace-423b-a9ee-fefc86a87851")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs11")
 					(unit 1)
@@ -22568,7 +23064,7 @@
 			(uuid "6a863151-817b-46bf-91bb-e20740b1c5f9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs6")
 					(unit 1)
@@ -22638,7 +23134,7 @@
 			(uuid "0529d67e-be39-4994-8023-424d3983147a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl14")
 					(unit 1)
@@ -22742,7 +23238,7 @@
 			(uuid "e71abb28-015b-425e-9253-aa2ef8ecc4c8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U5")
 					(unit 4)
@@ -22812,7 +23308,7 @@
 			(uuid "344dcb5c-b99b-4eba-9351-dea5ac5b00bd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C13")
 					(unit 1)
@@ -22882,7 +23378,7 @@
 			(uuid "0e956d97-b11c-4f2b-992f-bfaf9c5f2f75")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C3")
 					(unit 1)
@@ -22950,7 +23446,7 @@
 			(uuid "5499f141-c3cb-4f20-bed1-3d60f8004265")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc29")
 					(unit 1)
@@ -23020,7 +23516,7 @@
 			(uuid "6e514a48-cc89-4d8c-b9c4-b39f58cef883")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs26")
 					(unit 1)
@@ -23099,7 +23595,7 @@
 			(uuid "69167fb6-8286-4b91-98ba-93a882149915")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D26")
 					(unit 1)
@@ -23169,7 +23665,7 @@
 			(uuid "e81e842b-7abe-494f-b282-6c91efd9c828")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs16")
 					(unit 1)
@@ -23248,7 +23744,7 @@
 			(uuid "0d084f1e-e531-4051-9127-2bfbe42bc7a3")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D15")
 					(unit 1)
@@ -23318,7 +23814,7 @@
 			(uuid "82973425-478d-41d5-bf21-d3e43a04a3f9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q30")
 					(unit 1)
@@ -23422,7 +23918,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22fb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U2")
 					(unit 1)
@@ -23488,7 +23984,7 @@
 			(uuid "03511c4c-ea44-4abb-9354-2120ddf0db5d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR017")
 					(unit 1)
@@ -23558,7 +24054,7 @@
 			(uuid "0f9fa391-349e-4551-a7d9-c97b010ecff4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C10")
 					(unit 1)
@@ -23626,7 +24122,7 @@
 			(uuid "94290361-cccd-4b29-8596-5b57e807ef72")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc25")
 					(unit 1)
@@ -23694,7 +24190,7 @@
 			(uuid "691afb2f-b40f-4476-90d7-9af8d601cbe1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc14")
 					(unit 1)
@@ -23704,7 +24200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 618.49 85.09 0)
+		(at 666.75 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23713,7 +24209,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ff65f88-470d-4ac7-b595-4dce88d789a5")
 		(property "Reference" "RV1"
-			(at 615.95 83.8199 0)
+			(at 664.21 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23722,7 +24218,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_Trim"
-			(at 615.95 86.3599 0)
+			(at 664.21 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23731,7 +24227,7 @@
 			)
 		)
 		(property "Footprint" "hankotei:hankotei_node"
-			(at 618.49 85.09 0)
+			(at 666.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23740,7 +24236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 618.49 85.09 0)
+			(at 666.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23749,7 +24245,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 618.49 85.09 0)
+			(at 666.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23767,7 +24263,7 @@
 			(uuid "1445ef94-b6b9-41c2-aaa7-356f99ef2c51")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "RV1")
 					(unit 1)
@@ -23833,7 +24329,7 @@
 			(uuid "b5a105b5-ca36-4a02-aa36-d819f5f968c1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR06")
 					(unit 1)
@@ -23903,7 +24399,7 @@
 			(uuid "5292c047-2288-4717-bd68-fd29c95e3cb8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl8")
 					(unit 1)
@@ -23971,7 +24467,7 @@
 			(uuid "be5f4f67-f3ef-4381-af28-9b21b15db4e0")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc32")
 					(unit 1)
@@ -24075,7 +24571,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22fc")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U4")
 					(unit 1)
@@ -24154,7 +24650,7 @@
 			(uuid "6f967e06-288c-41e9-a87f-84b653303fdb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D7")
 					(unit 1)
@@ -24258,7 +24754,7 @@
 			(uuid "469c9f93-9307-458a-a789-d28ee3240674")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U3")
 					(unit 4)
@@ -24328,7 +24824,7 @@
 			(uuid "48088eda-3a17-4659-a71c-fb48064fdb8c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs25")
 					(unit 1)
@@ -24432,7 +24928,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22fd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U5")
 					(unit 1)
@@ -24511,7 +25007,7 @@
 			(uuid "a6a595ad-afc6-4ad8-9c78-d5b8a0a7b65c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D27")
 					(unit 1)
@@ -24581,7 +25077,7 @@
 			(uuid "2c800da4-c18f-447d-90ea-3efb353dc3e0")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs32")
 					(unit 1)
@@ -24651,7 +25147,7 @@
 			(uuid "3f61b6ac-eb94-41df-bd0e-3de07643ec8c")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl15")
 					(unit 1)
@@ -24717,7 +25213,7 @@
 			(uuid "043b2764-0219-44cc-9745-2ad72746c433")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR049")
 					(unit 1)
@@ -24821,10 +25317,80 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22fe")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U8")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 590.55 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac42884d-665a-4a03-b125-2df67d67e340")
+		(property "Reference" "C15"
+			(at 594.36 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 594.36 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 591.5152 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 590.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 590.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb0c79c-ad30-43e0-8d4f-8cfcacb2c0ff")
+		)
+		(pin "2"
+			(uuid "c64102cf-5cbb-4767-b7d9-f22f58284547")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "C15")
+					(unit 1)
 				)
 			)
 		)
@@ -24887,7 +25453,7 @@
 			(uuid "b776e975-27cb-454e-b15f-a11f834cfa46")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR012")
 					(unit 1)
@@ -24953,7 +25519,7 @@
 			(uuid "2daab3d1-a78a-4cf5-a1b2-fdf45875c903")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR014")
 					(unit 1)
@@ -25023,7 +25589,7 @@
 			(uuid "4cf09002-5d9b-4fb6-840e-bb076154bb31")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs18")
 					(unit 1)
@@ -25093,7 +25659,7 @@
 			(uuid "5bca1e01-9c87-4bbc-87d2-6c43465368e6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q13")
 					(unit 1)
@@ -25163,7 +25729,7 @@
 			(uuid "c10c62e2-648c-470d-bd80-fd1f1ecc11aa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl16")
 					(unit 1)
@@ -25267,7 +25833,7 @@
 			(uuid "4820c2cd-0923-40d9-af13-7c5747f61946")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U2")
 					(unit 4)
@@ -25346,7 +25912,7 @@
 			(uuid "80489a63-173d-4001-894b-81ca46d897e4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D19")
 					(unit 1)
@@ -25411,7 +25977,7 @@
 			(uuid "ca78d343-abf8-4f1d-ab2b-7e7b10e2b08b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR011")
 					(unit 1)
@@ -25477,7 +26043,7 @@
 			(uuid "cc6f3f38-973b-4134-9d34-65e03b44f370")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR043")
 					(unit 1)
@@ -25547,7 +26113,7 @@
 			(uuid "681951e3-7195-4ec9-8621-1d789fd9c7fa")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q27")
 					(unit 1)
@@ -25617,7 +26183,7 @@
 			(uuid "4c07e534-6bc9-48a5-9802-f5c548eb5e8d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q26")
 					(unit 1)
@@ -25687,7 +26253,7 @@
 			(uuid "24142b8c-73ab-44af-8f04-2d318f8fd784")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q2")
 					(unit 1)
@@ -25793,7 +26359,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a22ff")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U5")
 					(unit 5)
@@ -25863,7 +26429,7 @@
 			(uuid "9c2ec5ce-b2dc-4fa5-b80b-58d654e31fb8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q28")
 					(unit 1)
@@ -25942,7 +26508,7 @@
 			(uuid "f60c207c-1dfe-415e-b521-73986a8e2188")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D1")
 					(unit 1)
@@ -26021,7 +26587,7 @@
 			(uuid "7846059a-ecda-44ad-aa67-516c43e942ec")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D30")
 					(unit 1)
@@ -26091,7 +26657,7 @@
 			(uuid "8b962bc8-0157-4611-bc6d-07a8ccb2f6c4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q12")
 					(unit 1)
@@ -26197,7 +26763,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2300")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U6")
 					(unit 5)
@@ -26301,7 +26867,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2301")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U3")
 					(unit 3)
@@ -26371,7 +26937,7 @@
 			(uuid "b933ed5e-ee52-4b25-9e48-a8cb515b235d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl1")
 					(unit 1)
@@ -26437,7 +27003,7 @@
 			(uuid "fdd4e4db-4364-4dfd-87f6-d3bdd2b13a27")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR02")
 					(unit 1)
@@ -26507,7 +27073,7 @@
 			(uuid "a5ab7282-1192-48b9-82bf-744f6c1a416a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q22")
 					(unit 1)
@@ -26577,7 +27143,7 @@
 			(uuid "6f4269f8-ca4b-426e-adb4-d28ee920b555")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl26")
 					(unit 1)
@@ -26647,7 +27213,7 @@
 			(uuid "38e5d9b8-6bbc-47a6-9a98-2381af6f813f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q25")
 					(unit 1)
@@ -26726,7 +27292,7 @@
 			(uuid "5558aedd-4c5f-46a7-a07f-fa38243e6e35")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D23")
 					(unit 1)
@@ -26805,7 +27371,7 @@
 			(uuid "141fb475-ce73-4064-8166-da564f3d261e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D9")
 					(unit 1)
@@ -26875,7 +27441,7 @@
 			(uuid "bdf6be07-843d-4614-9228-eae610530dae")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl11")
 					(unit 1)
@@ -26941,7 +27507,7 @@
 			(uuid "1866bd48-ad36-444f-9939-56c7eb8c3d18")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR035")
 					(unit 1)
@@ -27011,7 +27577,7 @@
 			(uuid "e93b88e6-32e2-4e55-9233-e31a4e8341d7")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q6")
 					(unit 1)
@@ -27081,7 +27647,7 @@
 			(uuid "f753a43d-0b25-4fa9-aa08-b3a6aee2f5cc")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C12")
 					(unit 1)
@@ -27147,7 +27713,7 @@
 			(uuid "ce1388f6-5aac-4840-99d2-37639dc89a76")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR07")
 					(unit 1)
@@ -27217,7 +27783,7 @@
 			(uuid "b815917a-b167-4080-bdf6-2adceb31250b")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C6")
 					(unit 1)
@@ -27282,7 +27848,7 @@
 			(uuid "6ff9121f-c659-481b-97f3-4c3c4bdb58a9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR027")
 					(unit 1)
@@ -27352,7 +27918,7 @@
 			(uuid "3527b2b7-f4b0-4d4c-922a-07736f3fd7c9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl28")
 					(unit 1)
@@ -27456,7 +28022,7 @@
 			(uuid "e1269a38-2f30-4014-b466-b0f24baf9739")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U6")
 					(unit 4)
@@ -27526,7 +28092,7 @@
 			(uuid "7fcddee7-ba04-497d-96bd-8608ae08ac8a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C1")
 					(unit 1)
@@ -27592,7 +28158,7 @@
 			(uuid "2cbc3999-6da5-4fb2-bae1-eaf76766fae6")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR036")
 					(unit 1)
@@ -27660,7 +28226,7 @@
 			(uuid "614a70ca-2000-4630-9635-e1dc8c387ef9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc17")
 					(unit 1)
@@ -27730,7 +28296,7 @@
 			(uuid "09ad51b7-7f44-4972-b15f-fbc767184ee9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs4")
 					(unit 1)
@@ -27800,7 +28366,7 @@
 			(uuid "a8290801-d0b0-42a0-9a37-0f0f91dc06c1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs14")
 					(unit 1)
@@ -27868,7 +28434,7 @@
 			(uuid "d86eb863-016f-43c4-ac6a-04709b4a516f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc18")
 					(unit 1)
@@ -27938,7 +28504,7 @@
 			(uuid "9f4933e4-e752-4d0c-b938-931043256eeb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl31")
 					(unit 1)
@@ -28004,7 +28570,7 @@
 			(uuid "eb4fa951-c4e0-4cce-9017-74c5a4733c40")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR046")
 					(unit 1)
@@ -28070,7 +28636,7 @@
 			(uuid "3043f3d6-d62c-402b-a0a7-d9f7d5aa106f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR052")
 					(unit 1)
@@ -28149,7 +28715,7 @@
 			(uuid "f445b955-d9a5-42fd-b4ee-720974dfa372")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D2")
 					(unit 1)
@@ -28219,7 +28785,7 @@
 			(uuid "d23ac1c1-6e80-4d73-8d6a-637baec5eae7")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl13")
 					(unit 1)
@@ -28289,7 +28855,7 @@
 			(uuid "10f29c13-5d43-4f17-8c6d-7991c9729a80")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs1")
 					(unit 1)
@@ -28368,7 +28934,7 @@
 			(uuid "c1175c20-1d08-4483-9d29-e73c0357308d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D17")
 					(unit 1)
@@ -28447,7 +29013,7 @@
 			(uuid "acfab3e1-796a-4b77-80d3-e381bac682ef")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D29")
 					(unit 1)
@@ -28517,7 +29083,7 @@
 			(uuid "940813e5-0836-45e1-8bb7-2948503be231")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q3")
 					(unit 1)
@@ -28651,7 +29217,7 @@
 			(uuid "5a7700ff-81fd-4b34-b9a4-73e6f42f9dcb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "RP2040_Zero2")
 					(unit 1)
@@ -28721,7 +29287,7 @@
 			(uuid "80ce5523-d3eb-4030-8d0d-f0ce9e152c19")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs20")
 					(unit 1)
@@ -28825,7 +29391,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2302")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U2")
 					(unit 2)
@@ -28895,7 +29461,7 @@
 			(uuid "b8b8459e-a39e-4e38-bb0a-92bb1745fc56")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs22")
 					(unit 1)
@@ -28965,7 +29531,7 @@
 			(uuid "020a6659-6608-40e6-8704-5321968e40bf")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q29")
 					(unit 1)
@@ -29033,7 +29599,7 @@
 			(uuid "a5f7438a-9ab1-40b0-a9e2-7e47bca6a7c2")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D33")
 					(unit 1)
@@ -29137,7 +29703,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2303")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U7")
 					(unit 3)
@@ -29207,7 +29773,7 @@
 			(uuid "92b88203-d125-4231-8f17-7cb7037250da")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs5")
 					(unit 1)
@@ -29313,7 +29879,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2304")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U7")
 					(unit 5)
@@ -29381,7 +29947,7 @@
 			(uuid "092ca2c2-ddb1-447d-96c3-db31dcd34163")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc4")
 					(unit 1)
@@ -29460,7 +30026,7 @@
 			(uuid "25c051f5-7782-4853-be10-e04e25de32ee")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D32")
 					(unit 1)
@@ -29528,7 +30094,7 @@
 			(uuid "a3311362-d7e3-4997-92e6-6024ea74ea7e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc21")
 					(unit 1)
@@ -29598,7 +30164,7 @@
 			(uuid "3cb9573a-bab2-4894-9193-810dfc8d69af")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs17")
 					(unit 1)
@@ -29668,7 +30234,7 @@
 			(uuid "b8f528c0-a111-4ccd-bd96-4851c8ee1592")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl20")
 					(unit 1)
@@ -29736,7 +30302,7 @@
 			(uuid "8e0c17f7-18b8-4836-8d8b-8aaa3bb704d5")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc11")
 					(unit 1)
@@ -29802,7 +30368,7 @@
 			(uuid "9d56ff71-7ec3-41a3-a5df-2ba70f979958")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR05")
 					(unit 1)
@@ -29872,7 +30438,7 @@
 			(uuid "c1cadad2-a3d8-476f-86da-4e8de23d972a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q18")
 					(unit 1)
@@ -29942,7 +30508,7 @@
 			(uuid "4a95362a-0ecb-46d6-b100-b1c3092051f1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl2")
 					(unit 1)
@@ -30008,7 +30574,7 @@
 			(uuid "0a6a513b-196e-48ac-9aad-c86f9a962126")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR050")
 					(unit 1)
@@ -30112,7 +30678,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2305")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U5")
 					(unit 3)
@@ -30182,7 +30748,7 @@
 			(uuid "377612b9-0d43-4ee9-92f3-180ff67b49b8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs28")
 					(unit 1)
@@ -30252,7 +30818,7 @@
 			(uuid "4e18b76e-464b-43c8-99ff-b60a8448699d")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs10")
 					(unit 1)
@@ -30331,7 +30897,7 @@
 			(uuid "9fbf3353-868e-49b0-ba35-6e377f8c736e")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D22")
 					(unit 1)
@@ -30401,7 +30967,7 @@
 			(uuid "2f6cbf3a-6cc5-49c9-9b7e-675823801bc4")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q15")
 					(unit 1)
@@ -30471,7 +31037,7 @@
 			(uuid "2d28fa92-8633-4022-8383-97da85bd544f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl29")
 					(unit 1)
@@ -30537,7 +31103,7 @@
 			(uuid "02c040e6-ad27-49c2-a530-df95b7905b91")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR051")
 					(unit 1)
@@ -30641,7 +31207,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2306")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U4")
 					(unit 3)
@@ -30711,7 +31277,7 @@
 			(uuid "d54fef71-f4c7-4e87-9a65-3540e47bc558")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q21")
 					(unit 1)
@@ -30781,7 +31347,7 @@
 			(uuid "1405c5ac-6079-469c-863f-0c71c0ac69ed")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl5")
 					(unit 1)
@@ -30851,7 +31417,7 @@
 			(uuid "dd808008-430f-41ca-9e9b-0f1a6af345c1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C4")
 					(unit 1)
@@ -30915,7 +31481,7 @@
 			)
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "H1")
 					(unit 1)
@@ -30981,7 +31547,7 @@
 			(uuid "f00aff38-9e56-4ab3-92e8-a42bdf6d55a9")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR034")
 					(unit 1)
@@ -31085,7 +31651,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2307")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U1")
 					(unit 3)
@@ -31164,7 +31730,7 @@
 			(uuid "ad61d50b-3e50-4f7c-9481-8e5d1943e525")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D5")
 					(unit 1)
@@ -31234,7 +31800,7 @@
 			(uuid "1da1f2b3-9554-49f0-a773-9420b43809a2")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rs30")
 					(unit 1)
@@ -31313,7 +31879,7 @@
 			(uuid "698e0ba5-a067-408d-bf45-a8aa3a029be1")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D20")
 					(unit 1)
@@ -31417,10 +31983,80 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2308")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U8")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 590.55 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15cd05d-3c95-41c6-ad8e-69b409ab0f22")
+		(property "Reference" "C14"
+			(at 594.36 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 594.36 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 591.5152 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 590.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 590.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84947f3a-64cd-4581-ad1a-347c05ea0327")
+		)
+		(pin "2"
+			(uuid "65eb64c2-6373-44d8-8f6e-bb83eb173625")
+		)
+		(instances
+			(project "prot3"
+				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
+					(reference "C14")
+					(unit 1)
 				)
 			)
 		)
@@ -31487,7 +32123,7 @@
 			(uuid "08c943f6-501e-4b1f-b724-ca8b28595782")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q17")
 					(unit 1)
@@ -31555,7 +32191,7 @@
 			(uuid "ab2613f5-ce88-4a07-857f-2eee04f0fc6a")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc5")
 					(unit 1)
@@ -31621,7 +32257,7 @@
 			(uuid "3146fa7a-e8ec-44af-9891-40f389c53b25")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR09")
 					(unit 1)
@@ -31631,7 +32267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 618.49 88.9 0)
+		(at 666.75 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31640,7 +32276,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5597625-bd0a-47d6-b756-c75d81e79409")
 		(property "Reference" "#PWR04"
-			(at 618.49 95.25 0)
+			(at 666.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31649,7 +32285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 618.49 93.98 0)
+			(at 666.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31657,7 +32293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 618.49 88.9 0)
+			(at 666.75 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31666,7 +32302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 618.49 88.9 0)
+			(at 666.75 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31675,7 +32311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 618.49 88.9 0)
+			(at 666.75 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31687,7 +32323,7 @@
 			(uuid "12ce28a9-269b-4207-a220-dc8b9a218815")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR04")
 					(unit 1)
@@ -31753,7 +32389,7 @@
 			(uuid "512ba13f-8a94-4bd2-8ce8-1908a1bb28fd")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "#PWR013")
 					(unit 1)
@@ -31821,7 +32457,7 @@
 			(uuid "e4ab653e-ad1c-4b33-9bcf-6ec35962f7f8")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc24")
 					(unit 1)
@@ -31889,7 +32525,7 @@
 			(uuid "57837811-d8ef-4f7a-8733-659681f62cb0")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc28")
 					(unit 1)
@@ -31957,7 +32593,7 @@
 			(uuid "89edef08-f2d4-4de3-8c5e-bd21488d3063")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rc2")
 					(unit 1)
@@ -32027,7 +32663,7 @@
 			(uuid "97a217c4-b758-439d-94d6-912fdccbd286")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Q19")
 					(unit 1)
@@ -32097,7 +32733,7 @@
 			(uuid "1c40e8ed-1167-488c-852f-cafca2c3e36f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "Rl23")
 					(unit 1)
@@ -32201,7 +32837,7 @@
 			(uuid "20b7bb58-09c6-4677-b937-ccaf5e8a2309")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "U1")
 					(unit 2)
@@ -32280,7 +32916,7 @@
 			(uuid "b557e7d3-fef7-48a1-8355-04382f25a5fb")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "D3")
 					(unit 1)
@@ -32350,7 +32986,7 @@
 			(uuid "ae63548a-e04e-4126-9dea-08f781617c3f")
 		)
 		(instances
-			(project "prot2"
+			(project "prot3"
 				(path "/3801cecc-1706-4d1d-801b-7265d07d011d"
 					(reference "C8")
 					(unit 1)
