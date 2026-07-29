@@ -15027,7 +15027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 63.5 276.86 0)
 			(effects
 				(font
@@ -20749,7 +20749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2040zero:RP2040_zero"
+		(property "Footprint" "RP2040_zero_kimoi1:RP2040_zero_kimoi2"
 			(at 100.33 287.02 0)
 			(effects
 				(font
@@ -29117,7 +29117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2040zero:RP2040_zero"
+		(property "Footprint" "RP2040_zero_kimoi1:RP2040_zero_kimoi1"
 			(at 194.31 289.56 0)
 			(effects
 				(font
