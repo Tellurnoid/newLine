@@ -50,3 +50,14 @@ LED
 73mm
 ネジ穴外枠
 5.7mm
+
+rp2040直付け前例↓
+https://zenn.dev/digitarhythm/articles/15850e61cbc860
+
+rp2040極座標移動
+r=47mm
+45度 45度
+
+
+r=57mm
+22.5度づつ
