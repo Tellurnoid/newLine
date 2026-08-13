@@ -61,3 +61,6 @@ r=47mm
 
 r=57mm
 22.5度づつ
+
+バルクコンデンサの代わりに、1608のMLCC　*2ずつ
+https://www.marutsu.co.jp/pc/i/40712455/
