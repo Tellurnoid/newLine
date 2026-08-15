@@ -9951,7 +9951,7 @@
 	)
 	(global_label "RP2_RX"
 		(shape bidirectional)
-		(at 212.09 275.59 0)
+		(at 207.01 302.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9961,7 +9961,7 @@
 		)
 		(uuid "39572d17-bf0a-464d-8988-725d18524cb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.3831 275.59 0)
+			(at 218.3031 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11183,7 @@
 	)
 	(global_label "RP2_TX"
 		(shape bidirectional)
-		(at 212.09 278.13 0)
+		(at 207.01 299.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11193,7 +11193,7 @@
 		)
 		(uuid "8974d817-766d-4579-94e7-563187abe049")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.0807 278.13 0)
+			(at 218.0007 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12239,7 @@
 	)
 	(global_label "RP1_TX"
 		(shape bidirectional)
-		(at 100.33 264.16 180)
+		(at 97.79 312.42 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12249,7 +12249,7 @@
 		)
 		(uuid "e6592003-81be-46a4-b8d9-cdcc821ff5eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3393 264.16 0)
+			(at 97.79 323.4107 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12503,7 @@
 	)
 	(global_label "RP1_RX"
 		(shape bidirectional)
-		(at 100.33 266.7 180)
+		(at 95.25 312.42 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12513,7 +12513,7 @@
 		)
 		(uuid "fb4d922e-71a4-4d5d-9fd5-40a011b21737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.0369 266.7 0)
+			(at 95.25 323.7131 90)
 			(effects
 				(font
 					(size 1.27 1.27)
