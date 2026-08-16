@@ -64,3 +64,25 @@ r=57mm
 
 バルクコンデンサの代わりに、1608のMLCC　*2ずつ
 https://www.marutsu.co.jp/pc/i/40712455/
+
+
+
+
+
+
+LM393
+↓パッケージ違うだけ
+
+試作・手はんだ重視 → LM393BIDR(SOIC)
+https://www.marutsu.co.jp/pc/i/40309911/
+⇒<<採用>>
+SOIC
+pacageDrawing:D
+pin:8
+SPQ:2500
+
+SOICより小型、基板省スペース向け
+https://www.marutsu.co.jp/pc/i/40495207/
+
+4種の中で最小・最薄、高密度実装向け
+https://www.marutsu.co.jp/pc/i/40309914/
