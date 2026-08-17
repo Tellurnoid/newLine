@@ -1,1 +1,1 @@
-exec(open("/home/carbonoid/newLine/KiCad/prot3/python試し/round_Rl.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/python/round_lm_C.py").read())

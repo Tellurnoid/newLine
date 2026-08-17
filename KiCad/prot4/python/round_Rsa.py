@@ -4,9 +4,9 @@ import math
 board = pcbnew.GetBoard()
 
 # ここを変更するだけでOK
-prefix = "Rs"       # 部品のリファレンスの接頭辞 (D, R, LEDなど)
+prefix = "Rsa"       # 部品のリファレンスの接頭辞 (D, R, LEDなど)
 start_n = 1        # 開始番号
-count = 32         # 配置したい部品の数
+count = 16         # 配置したい部品の数
 
 refs = [f"{prefix}{n}" for n in range(start_n, start_n + count)]
 
