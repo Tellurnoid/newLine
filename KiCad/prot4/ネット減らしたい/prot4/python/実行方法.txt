@@ -1,1 +1,7 @@
-exec(open("/home/carbonoid/newLine/KiCad/prot3/python試し/round_Rl.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_lm_C.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_LM393.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_Q.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_Rca.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_Rcb.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_Rsa.py").read())
+exec(open("/home/carbonoid/newLine/KiCad/prot4/ネット減らしたい/prot4/python/round_Rsb.py").read())
