@@ -101,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -474,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "prot2.kicad_pro",
+    "filename": "prot4.kicad_pro",
     "version": 3
   },
   "net_settings": {
