@@ -1,5 +1,5 @@
 
-#define in19 2  //2
+#define in19 2    //2
 #define in20 5//5
 
 #define conpPWM 29
