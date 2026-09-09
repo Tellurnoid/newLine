@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "arduino-cli compile --fqbn rp2040:rp2040:rpipico --verbose .",
+      "group": "build"
+    },
+    {
+      "label": "upload",
+      "type": "shell",
+      "command": "arduino-cli upload -p /dev/ttyACM0 --fqbn rp2040:rp2040:rpipico --verbose .",
+      "dependsOn": "compile"
+    }
+  ]
+}

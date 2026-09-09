@@ -1,4 +1,11 @@
-27286617949302855
+27316953434643984
+ALS-PT19-315C
+ALS-PT19-315C
+
+
+0
+3
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71420,6 +71427,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LM393_SOIC_8_handhandSoilder
+LM393_SOIC-8_3.9x4.9mm_P1.27mm_handhandsoilder
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+LM393_SOIC_8_handhandSoilder
+SOIC-8_3.9x4.9mm_P1.27mm_
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
 Locker_Switch
 DS-850(LockerSwitch)
 
@@ -71448,6 +71469,13 @@ Non-Isolated PoL Module DC DC Converter 1 Output 0.591 ~ 5.5V - - 6A 4.5V - 14V 
 0
 14
 6
+Mini_Lipo_Charger
+Mini_Lipo_Charger
+
+
+0
+6
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -74297,6 +74325,13 @@ threaded screw
 0
 4
 1
+NJL7502R
+NJL7502R
+
+
+0
+2
+2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -95983,8 +96018,36 @@ RP2040-Zero-THT
 0
 23
 23
+RP2040_zero_kimoi1
+RP2040_zero_kimoi1
+
+
+0
+23
+23
+RP2040_zero_kimoi1
+RP2040_zero_kimoi2
+
+
+0
+23
+23
+RP2040_zero_kimoi1
+RP2040_zero_kimoi3
+
+
+0
+23
+23
 RP2040zero
 RP2040_zero
+
+
+0
+23
+23
+RP2040zero
+RP2040zero
 
 
 0
@@ -98321,6 +98384,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+SW_toggle
+SW_Toggle
+
+
+0
+3
+3
 Seeed
 Seeeduino Xiao SAMD
 
@@ -98986,6 +99056,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Stick
+Stick1
+
+
+0
+16
+4
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -106637,6 +106714,13 @@ igbt diode module
 0
 25
 25
+TypeC_forPower
+TypeC_forPower
+
+
+0
+4
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -107418,6 +107502,41 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+a
+Kani
+
+
+0
+0
+0
+a
+Tellurnoid1
+
+
+0
+0
+0
+a
+Theoria2026
+
+
+0
+0
+0
+hankotei
+hankotei_node
+
+
+0
+3
+3
+speaker
+kore_Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm
+Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf
+buzzer
 0
 2
 2
