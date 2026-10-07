@@ -6,7 +6,6 @@ SerialPIO PIOSerial1(0, 1);
 #define conpPWM 2  
 
 //#define BOARD_B          // ← A(RP1)のボードに書くときはこの行をコメントアウト
-
 #ifdef BOARD_B
 const uint8_t IN_PINS[18] = {
                              14, 15, 26, 27,  9, 
@@ -14,8 +13,15 @@ const uint8_t IN_PINS[18] = {
                              12,  8,  4,  7,  3,
                               6,  2,  5
                             }; // 送信18本
+const uint8_t IN_PINS[] = {2,3,4,5,6,7,8,9,10,11,12,13,14,15}; // 受信14本
 const int RX_COUNT = 14;
 #else
+const uint8_t RX_PINS[18] = {
+                             14, 15, 26, 27,  9, 
+                             10,  1,  0, 11, 13,
+                             12,  8,  4,  7,  3,
+                              6,  2,  5
+                            }; // 受信18本
 const uint8_t IN_PINS[] =   {
                              7,8,26,15,14,9,3,10,13,4,11,12,5,6
                             }; // 送信14本
@@ -30,18 +36,20 @@ uint32_t rxBits = 0;
 bool rxPin[18]; 
 
 
+//全センサー情報統合
+bool sensors[32];
 
 
 void setup() {
-  Serial.begin(115200);          // USBデバッグ用
+  Serial.begin(115200);      
   PIOSerial1.begin(115200);
   for (int i = 0; i < TX_COUNT; i++) pinMode(IN_PINS[i], INPUT_PULLUP);
   pinMode(conpPWM, OUTPUT);
-  analogWriteFreq(1000);   // 周波数はグローバル設定(全ピン共通)
-  analogWriteRange(255);   // Duty比の分解能も共通設定
-
+  analogWriteFreq(1000);   // 周波数
+  analogWriteRange(255);   // Duty比の分解能
 }
 
+// 一応相互通信用。実装時は必要なし
 void sendBits() {
   uint32_t bits = 0;
   for (int i = 0; i < TX_COUNT; i++) {
@@ -58,7 +66,7 @@ void sendBits() {
   PIOSerial1.write(frame, FRAME_LEN);
 }
 
-
+//受信関数
 void receiveBits() {
   static uint8_t buf[FRAME_LEN - 1];
   static uint8_t n = 0;
@@ -82,24 +90,59 @@ void receiveBits() {
 }
 
 
+//0: Pico1のピン  
+//1: Pico2のピン
+bool whichMCU[32]={0,0,1,1,1,1,1,1,1,1,
+                   1,1,1,1,1,1,1,1,1,1,
+                   0,0,0,0,0,0,0,0,0,0,
+                   0,0};
+//自分の取得、結合(整列済み)
+void joinPico2(){
+  int p = 32;//センサー総数
+  int p_pico1 = 0;//1つ目のPicoの何番目か
+  int p_pico2 = 0;//2つ目のPicoの何番目か
+    for (int Q=0; Q<p; Q++){
+      if(whichMCU[Q]==0){
+        sensors[Q] = digitalRead(IN_PINS[p_pico1]);
+        p_pico1++;
+      }
+      else{
+        sensors[Q] = !rxPin[p_pico2];//逆転した論理修正
+        p_pico2++;
+      }
+      Serial.print(sensors[Q]);
+      Serial.print(",");
+    }
+    Serial.println();
+}
+
+void rawDebug(){
+  Serial.print(sensors[0]);
+  for (int i=0+1; i<32-2; i++){
+    Serial.print(sensors[i]);
+    Serial.print(",");
+  }
+  Serial.print(sensors[31]);
+  Serial.println();
+}
+
 void loop() {
   static uint32_t tSend = 0, tPrint = 0;
   uint32_t now = millis();
-  //if (now - tSend >= 10) { tSend = now; sendBits(); }
+  analogWrite(conpPWM, 90);
   sendBits();
   receiveBits();
-  analogWrite(conpPWM, 90);
+  joinPico2();
+  //rawDebug();
 
+  // for (int i = 0; i < RX_COUNT; i++) {
+  //   Serial.print(rxPin[i]);
+  //   Serial.print(",");
+  // }
 
-
-  for (int i = 0; i < RX_COUNT; i++) {
-    Serial.print(rxPin[i]);
-    Serial.print(",");
-  }
-
-   Serial.print("  RP1_in(me)");
-   for(int i=0; i<14; i++){
-    Serial.print(digitalRead(IN_PINS[i]));Serial.print(",");
-   }
-   Serial.println();
+  //  Serial.print("  RP1_in(me)");
+  //  for(int i=0; i<14; i++){
+  //   Serial.print(digitalRead(IN_PINS[i]));Serial.print(",");
+  //  }
+  //  Serial.println();
 }

@@ -11,6 +11,7 @@ const uint8_t IN_PINS[18] = {
                              12,  8,  4,  7,  3,
                               6,  2,  5
                             }; // 送信18本
+const uint8_t RX_PINS[] = {2,3,4,5,6,7,8,9,10,11,12,13,14,15}; // 受信14本
 const int RX_COUNT = 14;
 #else
 const uint8_t IN_PINS[] = {2,3,4,5,6,7,8,9,10,11,12,13,14,15}; // 送信14本
