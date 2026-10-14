@@ -90,13 +90,14 @@ void receiveBits() {
 }
 
 
-//0: Pico1のピン  
-//1: Pico2のピン
+//0: Pico1から取得
+//1: Pico2から取得
 bool whichMCU[32]={0,0,1,1,1,1,1,1,1,1,
                    1,1,1,1,1,1,1,1,1,1,
                    0,0,0,0,0,0,0,0,0,0,
                    0,0};
-//自分の取得、結合(整列済み)
+
+//自分の取得と結合(整列済み)
 void joinPico2(){
   int p = 32;//センサー総数
   int p_pico1 = 0;//1つ目のPicoの何番目か
@@ -110,12 +111,13 @@ void joinPico2(){
         sensors[Q] = !rxPin[p_pico2];//逆転した論理修正
         p_pico2++;
       }
-      Serial.print(sensors[Q]);
-      Serial.print(",");
+      // Serial.print(sensors[Q]);
+      // Serial.print(",");
     }
-    Serial.println();
+    // Serial.println();
 }
 
+//シリアル出力
 void rawDebug(){
   Serial.print(sensors[0]);
   for (int i=0+1; i<32-2; i++){
@@ -126,15 +128,32 @@ void rawDebug(){
   Serial.println();
 }
 
+//シリアル出力
+void rawDebug_Q(){
+  Serial.print("Q1:");
+  Serial.print(sensors[0]);
+  Serial.print(", ");
+  for (int i=0+1; i<32-2; i++){
+    Serial.print("Q");
+    Serial.print(i+1);
+    Serial.print(":");
+    Serial.print(sensors[i]);
+    Serial.print(", ");
+  }
+  Serial.print("Q31:");
+  Serial.print(sensors[31]);
+  Serial.println();
+}
+
 void loop() {
   static uint32_t tSend = 0, tPrint = 0;
   uint32_t now = millis();
-  analogWrite(conpPWM, 90);
+  analogWrite(conpPWM,    50);
   sendBits();
   receiveBits();
   joinPico2();
   //rawDebug();
-
+  rawDebug_Q();
   // for (int i = 0; i < RX_COUNT; i++) {
   //   Serial.print(rxPin[i]);
   //   Serial.print(",");
